@@ -1,0 +1,18 @@
+{
+  "note": "SHA-256 of every array except dmg_stats (a diagnostic text field) in each prepared v5bf match file, in sorted key order as name|dtype|shape| followed by the bytes; see check_data in training.py. Hashes only: they do not reconstruct any data.",
+  "matches": {
+    "sportec_DFL-MAT-J03WMX": "2fd963561a9aaa25da697951795cd00949fb1e27ce1041e3542bafdf68a81c7f",
+    "sportec_DFL-MAT-J03WN1": "8de2a3650904d33df71102ea764deb4b24baec5dc48a79dca493975f0819ca21",
+    "sportec_DFL-MAT-J03WOH": "c218c44d3bdeb8178b8efca564be074d84c2587ad87a34da0e9f0264830c2fe0",
+    "sportec_DFL-MAT-J03WOY": "ee933376d15a8d7d3fba7791f6ce291cdc7db597f7bdcb690fbd3727b68e2433",
+    "sportec_DFL-MAT-J03WPY": "f31f8f53445fd88d3ad4f58eac1f4eacbd587c077ae5cad4f6687b5baa88a361",
+    "metrica_game1": "1d8d8095fb2579d5cbd1ffb2d55a1edfd8359191fe7e64143201dfa7394b1d1d",
+    "metrica_game2": "9a3b22fb3a3d01379a03984101d3a0b57324bde15f25b09652d462d95fd3175c",
+    "soccertrack_117092": "1c2b49ee3fcafecfa458ccae74d121ce1375e5c05a02dc97f7f28519f4f1a7d3",
+    "soccertrack_117093": "e0f019a312bc5b80a93f197f533b883353ba3e388932ffde8f1d1f4d59629023",
+    "soccertrack_118575": "aea2c1805706c3fbd1df9f3c4ae39686ddb989d8a896c208874cda473a24bbe5",
+    "soccertrack_118577": "d49381709265fc518cc6003a559bb3752c064f1bb674344caadcfc6df38aa82a",
+    "soccertrack_118578": "9fcc9e1d03736fae808275eeae157a64070e9e2375dcde1a2567749552fb6fa5",
+    "soccertrack_128057": "b0020fe3ae6b976477bfdbdeb20dc8d5e1c37e17703fd80129ed19d97af8e521"
+  }
+}

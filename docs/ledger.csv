@@ -1,0 +1,7 @@
+decision,comparison,scope,outcome,interpretation
+averaging,entry C versus six-member B plus three plain seeds,13 held-out practice matches per copy,retain C,extra seeds account for the observed gain
+width,entry D minus entry C,13 practice matches on v5bfc / v7c / v6c,+0.0001 / +0.0023 / +0.0015,within uncertainty
+width veto,D minus C plus a plain seed,20 SkillCorner test matches,-0.0015,veto threshold -0.003 did not fire
+ensemble veto,C minus B,20 SkillCorner test matches,-0.0007,veto threshold -0.003 did not fire
+decoder,plain half-wise switch 20 and dead 32,external v5bfc grid recheck,retain 20/32,paired uncertainty overlapped zero for the best alternative
+final fit,ten final checkpoints,13 external practice matches per member,30 epochs per member,no held-out match used during final fitting

@@ -1,0 +1,10 @@
+# Data and attribution
+
+The ten final models share the same 13 external practice matches. The release contains model parameters, code and aggregate evidence. Obtain each provider’s files from the original source under its terms.
+
+- **Sportec / IDSSE.** Five Bundesliga matches. Sportec supplied frame-level team possession and ball status with the tracking. Bassek, Rein, Weber and Memmert, *An integrated dataset of spatiotemporal and event data in elite soccer*, Scientific Data 12, 195 (2025). CC BY 4.0. [Paper](https://doi.org/10.1038/s41597-025-04505-y) · [Data](https://huggingface.co/datasets/pysport/idsse-data)
+- **Metrica Sports sample data.** Games 1 and 2. Metrica supplied synchronised event and tracking files. Our importer derives possession from the events and treats long source ball gaps as stoppages. Courtesy of Metrica Sports. The sample repository requests acknowledgement and gives no formal redistribution licence. [Source](https://github.com/metrica-sports/sample-data)
+- **SoccerTrack v2.** Six matches. The provider’s ball-status field supplies team and out-of-play labels. The importer carries the controlling team through neutral touches. CC BY 4.0. The exact match list is in [the training recipe](lyari/jobs/recipe.json). [Dataset and authors](https://huggingface.co/datasets/atomscott/soccertrack-v2)
+- **SkillCorner open data.** Twenty A-League 2024/25 matches supplied tracking statistics for the simulator. We used the provider’s team attribution separately for the registered external veto. The nine 2019/20 games appeared in earlier experiments. The submitted weights were trained on the three sources above. Courtesy of SkillCorner, copyright 2020 SkillCorner, MIT. [Source](https://github.com/SkillCorner/opendata)
+
+The competition input is licensed separately to registered participants. Inference reads the organiser’s tactical EPTS metadata and positions locally. The submitted file is generated automatically. [Benchmark rules](https://github.com/metrica-sports/more-than-a-hack-2027/blob/main/RULES.md)

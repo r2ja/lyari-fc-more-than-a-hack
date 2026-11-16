@@ -1,0 +1,33 @@
+MIT License
+
+Copyright (c) 2026 Lyari FC (Raja Ata Ul Karim, Mian Akbar Jan, Abdur Rehman Durrani, Malik Mobeen,
+Syed Hamza Ali)
+
+This licence covers the team's own work in this repository: lyari/, scripts/, weights/ and the
+documentation outside the files listed below.
+
+games.py, evaluation/ and docs/benchmark.cff are copied unchanged from
+https://github.com/metrica-sports/more-than-a-hack-2027 and remain under Metrica Sports' licence in
+LICENSE-METRICA.
+
+Neither licence covers the competition match data (videos, tracking, Smart Tagging, homography),
+which is licensed separately to registered participants and is not in this repository, nor the open
+training datasets, which keep their providers' terms (see DATA.md).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

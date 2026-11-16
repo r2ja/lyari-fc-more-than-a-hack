@@ -1,0 +1,110 @@
+{
+  "matches": [
+    "sportec_DFL-MAT-J03WMX",
+    "sportec_DFL-MAT-J03WN1",
+    "sportec_DFL-MAT-J03WOH",
+    "sportec_DFL-MAT-J03WOY",
+    "sportec_DFL-MAT-J03WPY",
+    "metrica_game1",
+    "metrica_game2",
+    "soccertrack_117092",
+    "soccertrack_117093",
+    "soccertrack_118575",
+    "soccertrack_118577",
+    "soccertrack_118578",
+    "soccertrack_128057"
+  ],
+  "schedule": [
+    "--epochs",
+    "30",
+    "--steps",
+    "200",
+    "--batch",
+    "32",
+    "--workers",
+    "3"
+  ],
+  "shared": [
+    "--use-ball",
+    "--ball-rel",
+    "--change-weight",
+    "2",
+    "--ball-repair",
+    "--sources",
+    "sportec,metrica,soccertrack",
+    "--boundary",
+    "0.2",
+    "--disp",
+    "0.2",
+    "--p-transition",
+    "0.5",
+    "--ema",
+    "0.999"
+  ],
+  "members": {
+    "v5bf": {
+      "seed": 20261020,
+      "flags": []
+    },
+    "v5bfs2": {
+      "seed": 20261021,
+      "flags": []
+    },
+    "v5bfs3": {
+      "seed": 20261022,
+      "flags": []
+    },
+    "v5bfcp": {
+      "seed": 20261020,
+      "flags": [
+        "--control-physics"
+      ]
+    },
+    "v5bfcps2": {
+      "seed": 20261021,
+      "flags": [
+        "--control-physics"
+      ]
+    },
+    "v5bfcps3": {
+      "seed": 20261022,
+      "flags": [
+        "--control-physics"
+      ]
+    },
+    "v5bfsp": {
+      "seed": 20261020,
+      "flags": [
+        "--p-short",
+        "0.25",
+        "--short-max-s",
+        "5"
+      ]
+    },
+    "v5bfsps2": {
+      "seed": 20261021,
+      "flags": [
+        "--p-short",
+        "0.25",
+        "--short-max-s",
+        "5"
+      ]
+    },
+    "v5bfsps3": {
+      "seed": 20261022,
+      "flags": [
+        "--p-short",
+        "0.25",
+        "--short-max-s",
+        "5"
+      ]
+    },
+    "v5bfw": {
+      "seed": 20261020,
+      "flags": [
+        "--hidden",
+        "256"
+      ]
+    }
+  }
+}

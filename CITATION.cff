@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite Lyari FC when using this implementation. The benchmark citation is in docs/benchmark.cff."
+title: "Lyari FC: Frame-level possession from automatic tracking"
+type: software
+version: "1.0"
+authors:
+  - name: "Lyari FC"
+repository-code: "https://github.com/r2ja/lyari-fc-more-than-a-hack"
