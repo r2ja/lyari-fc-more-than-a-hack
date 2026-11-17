@@ -2,7 +2,7 @@
 
 More Than A Hack 2027 · Phase 1 · Entry D
 
-Raja Ata Ul Karim, Mian Akbar Jan, Muhammad Abdur Rehman Durrani, Malik Mobeen Karim and Syed Hamza Ali
+Raja Ata Ul Karim, Mian Akbar Jan, Muhammad Abdur Rahman Durrani, Malik Mobeen Karim and Syed Hamza Ali
 
 ## 1. From tracking to possession
 

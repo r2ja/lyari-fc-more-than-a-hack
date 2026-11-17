@@ -1,6 +1,6 @@
 # Submission handoff
 
-Team name: **Lyari FC**. The technical document lists Raja Ata Ul Karim, Mian Akbar Jan, Muhammad Abdur Rehman Durrani, Malik Mobeen Karim and Syed Hamza Ali. Confirm spellings against the registration when filling in the form.
+Team name: **Lyari FC**. The technical document lists Raja Ata Ul Karim, Mian Akbar Jan, Muhammad Abdur Rahman Durrani, Malik Mobeen Karim and Syed Hamza Ali. Confirm spellings against the registration when filling in the form.
 
 1. Run the [README reproduction commands](../README.md) on the licensed local tracking. Verify the SHA-256 and run the organiser’s validator on the exact CSV selected for upload.
 2. Upload `Lyari FC.csv` and the [short technical document, Lyari FC.pdf](Lyari%20FC.pdf), using the registered team name in both filenames.
